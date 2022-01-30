@@ -22,7 +22,7 @@ server.post('/signup', (req, res)=>{
     const email = req.body.email
     const password = req.body.password
     let user = {
-        email: email,
+        email: email,  
         password: password
     }
     users.push(user)
